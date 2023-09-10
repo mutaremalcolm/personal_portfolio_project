@@ -1,7 +1,6 @@
-//import { useState } from 'react'
+//import React, { useState } from 'react'
 import Sidenav from './components/Sidenav'
 
-import './App.css'
 
 //test
 function App() {
