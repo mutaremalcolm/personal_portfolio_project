@@ -1,5 +1,7 @@
 //import React, { useState } from 'react'
-import Sidenav from './components/Sidenav'
+import Sidenav from './components/Sidenav';
+import './App.css';
+import Main from './components/Main'
 
 
 //test
@@ -8,6 +10,7 @@ function App() {
     <>
       <div>
         <Sidenav />
+        <Main />
       </div>
     </>
   )
