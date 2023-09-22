@@ -1,7 +1,7 @@
 //import React, { useState } from 'react'
 import Sidenav from './components/Sidenav';
-import './App.css';
 import Main from './components/Main'
+import Work from './components/Work'
 
 
 //test
@@ -11,6 +11,7 @@ function App() {
       <div>
         <Sidenav />
         <Main />
+        <Work />
       </div>
     </>
   )
