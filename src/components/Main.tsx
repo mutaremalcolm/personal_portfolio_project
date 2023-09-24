@@ -14,13 +14,13 @@ const Main = () => {
         
         '<Full-Stack Developer </>',
         3000, 
-        '{ ReAct Developer () => }',
+        '<ReAct Developer () => </>',
         3000,
-        '{ Java Enthusiast }',
+        '<Java Enthusiast </>',
         3000,
-        '{ Object Oriented Approach }',
+        '< Object Oriented Approach </>',
         3000,
-        '[ Cloud Solutions Architect in the making... ]',
+        '<Cloud Solutions Architect in the making... </>',
         3000,
       ]}
       wrapper="div"
@@ -29,7 +29,7 @@ const Main = () => {
       repeat={Infinity}
       />
         </h2>
-        <div className='flex justify-between  pt-6 max-w-[200px] w-full pl-20'>
+        <div className='flex justify-between  pt-6 max-w-[200px] w-full pl-20 '>
             <FaTwitter classname='cursor-pointer' size={20}/>
             <FaFacebookF classname='cursor-pointer' size={20}/>
             <FaInstagram classname='cursor-pointer' size={20}/>
