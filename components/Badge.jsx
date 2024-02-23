@@ -1,8 +1,25 @@
-import React from 'react'
+"use client";
 
-const Badge = () => {
+import CountUp from "react-countup";
+
+const Badge = ({
+  containerStyles, 
+  icon,
+  endCountNum, 
+  endCountText, 
+  badgeText
+}) => {
   return (
-    <div>Badge</div>
+    <div className={`badge ${containerStyles}`}>
+      <div className="text-3xl text-primary">{icon}</div>
+      <div>
+        <div>
+          <CountUp end={endCountNum} delay={1} duration={4}/>
+          {endCountText}
+        </div>
+        <div>{badgeText}</div>
+      </div>
+    </div>
   )
 }
 
