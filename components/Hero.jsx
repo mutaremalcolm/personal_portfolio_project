@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
                      tracking-[4px]">Full Stack Developer {`</>`}
                      </div>
-                    <h1 className="h1 mb-4">Hello, my name is <br/>  Malcolm Mutare</h1>
+                    <h1 className="h1 mb-4">Hello, my name is Malcolm</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
                     The Developer you are looking for. Let me code your solution
                     </p>
@@ -48,11 +48,32 @@ const Hero = () => {
                 {/*image*/}
                 <div className="hidden xl:flex relative">
                     {/* badge */}
-                    <Badge icon={<RiBriefcase4Fill  endCountNum={3} badgeText='Years Of Experience'/>}/>
+                    <Badge 
+                    containerStyles="absolute top-[24%] -left-[5rem]"
+                    icon={<RiBriefcase4Fill />} 
+                    endCountNum={3} 
+                    badgeText="Years Of Experience"
+                    />
+                    {/* badge 2 */}
+                    <Badge 
+                    containerStyles="absolute top-[80%] -left-[1rem]"
+                    icon={<RiTodoFill />} 
+                    endCountNum={6} 
+                    endCountText="k"
+                    badgeText="Finished Projects"
+                    />
+                    {/* badge 3 */}
+                    <Badge 
+                    containerStyles="absolute top-[55%] -right-8"
+                    icon={<RiTeamFill />} 
+                    endCountNum={9} 
+                    endCountText="k"
+                    badgeText="Happy Clients"
+                    />
                     <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] 
                     -top-1 -right-2 bg-no-repeat absolute"></div>
                     <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-                    // imgSrc="/assets/hero/developer.png"
+                    imgSrc="/assets/hero/developer.png"
                     />
                 </div>
             </div>
