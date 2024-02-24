@@ -23,15 +23,15 @@ const Hero = () => {
                 <div className="flex max-w[600px] flex-col justify-center mx-auto xl:mx-8
                  text-center xl:text-left">
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
-                     tracking-[4px]">Full Stack Developer</div>
-                    <h1 className="h1 mb-4">Hello, my name is Malcolm Mutare</h1>
+                     tracking-[4px]">Full Stack Developer {`</>`}
+                     </div>
+                    <h1 className="h1 mb-4">Hello, my name is Malcolm</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    Brief description with insights into myself, my vocational journey, 
-                    and what I engage in professionally.
+                    The Developer you are looking for. Let me code your solution
                     </p>
                     {/*buttons*/}
-                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0
-                     mb-12">
+                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+                         
                         <Link href="/contact">
                             <Button className="gap-x-2">
                              Contact me <Send size={18} />
@@ -42,9 +42,40 @@ const Hero = () => {
                              <Download size={18} />
                             </Button>
                     </div>
+                    <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0" 
+                    iconStyles="text-foreground text-[22] hover:text-primary transition-all" />
                 </div>
                 {/*image*/}
-                <div className="hidden xl:flex relative">image</div>
+                <div className="hidden xl:flex relative">
+                    {/* badge */}
+                    <Badge 
+                    containerStyles="absolute top-[24%] -left-[5rem]"
+                    icon={<RiBriefcase4Fill />} 
+                    endCountNum={3} 
+                    badgeText="Years Of Experience"
+                    />
+                    {/* badge 2 */}
+                    <Badge 
+                    containerStyles="absolute top-[80%] -left-[1rem]"
+                    icon={<RiTodoFill />} 
+                    endCountNum={6} 
+                    endCountText="k"
+                    badgeText="Finished Projects"
+                    />
+                    {/* badge 3 */}
+                    <Badge 
+                    containerStyles="absolute top-[55%] -right-8"
+                    icon={<RiTeamFill />} 
+                    endCountNum={9} 
+                    endCountText="k"
+                    badgeText="Happy Clients"
+                    />
+                    <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] 
+                    -top-1 -right-2 bg-no-repeat absolute"></div>
+                    <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                    imgSrc="/assets/hero/developer.png"
+                    />
+                </div>
             </div>
             {/* icon */}
             <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
