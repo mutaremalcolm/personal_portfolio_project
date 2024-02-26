@@ -25,9 +25,9 @@ const Hero = () => {
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
                      tracking-[4px]">Full Stack Developer {`</>`}
                      </div>
-                    <h1 className="h1 mb-4">Hello, my name is Malcolm</h1>
+                    <h1 className="h1 mb-4">Hello, my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    The Developer you are looking for. Let me code your solution
+                    The Developer you need, Let me code your solution
                     </p>
                     {/*buttons*/}
                     <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
