@@ -133,11 +133,28 @@ const About = () => {
             <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
             About me
             </h2>
-            <div>
+            <div className="flex flex-col xl:flex-row">
                 {/* {image} */}
-                <div>
+                <div className="hidden xl:flex flex-1 relative">
                     <DevImg containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] 
                     h-[505px] bg-no-repeat relative" imgSrc="/assets/about/developer.png" />
+                </div>
+                {/* {tabs} */}
+                <div className="flex-1">
+                    <Tabs defaultValue="personal">
+                        <TabsList>
+                            <TabsTrigger value="personal">Personal Information</TabsTrigger>
+                            <TabsTrigger value="qualifications">Qualifications</TabsTrigger>
+                            <TabsTrigger value="skills">Skills</TabsTrigger>
+                        </TabsList>
+                        {/* tabs content */}
+                        <div className="text-lg mt-12 xl:mt-8">
+                        {/* personal */}
+                        <TabsContent value="personal">personal info</TabsContent>
+                        <TabsContent value="qualifications">qualifications info</TabsContent>
+                        <TabsContent value="skills">skills info</TabsContent>
+                        </div>
+                    </Tabs>
                 </div>
             </div>
         </div>
