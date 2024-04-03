@@ -45,9 +45,7 @@ const qualificationData = [
         title: "education",
         data: [
             {
-
                 university: "British Computer Society",
-
                 qualificationData: "Diploma in IT",
                 years: "2022-2024"
             },
