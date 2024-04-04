@@ -15,7 +15,7 @@ const servicesData = [
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Web Developemnt',
+        title: 'Web Developement',
         description: 'Lorem Ipsum dolor sit amet consectetur adisiping elit. Doloremque, repellat?'
     },
     {
