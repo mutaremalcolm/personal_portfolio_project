@@ -15,7 +15,7 @@ const servicesData = [
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Web Developement',
+        title: 'Web Development',
         description: 'Lorem Ipsum dolor sit amet consectetur adisiping elit. Doloremque, repellat?'
     },
     {
@@ -27,9 +27,9 @@ const servicesData = [
 
 const Services = () => {
     return (
-        <section className="mb-12 xl:mb-36">
+        <section className="xl:h-[868px] pb-12 xl:py-24">
             <div className="container mx-auto">
-                <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
+                <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
                     My Services
                 </h2>
                 {/* grid items */}
