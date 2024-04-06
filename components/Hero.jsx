@@ -25,13 +25,12 @@ const Hero = () => {
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
                      tracking-[4px]">Full Stack Developer {`</>`}
                      </div>
-                    <h1 className="h1 mb-4">Hello world my name is <br/> Malcolm Mutare</h1>
+                    <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
                     The Developer you need, Let me code your solution
                     </p>
                     {/*buttons*/}
-                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
-                         
+                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">   
                         <Link href="/contact">
                             <Button className="gap-x-2">
                              Contact me <Send size={18} />
@@ -46,10 +45,10 @@ const Hero = () => {
                     iconStyles="text-foreground text-[22] hover:text-primary transition-all" />
                 </div>
                 {/* image */}
-                {/* <div className="hidden xl:flex relative">
-                    badge
-                    <Badge 
-                    containerStyles="absolute top-[24%] -left-[5rem]"
+                 <div className="hidden xl:flex relative">
+                    {/* badge */}
+                    {/* <Badge 
+                    containerStyles="absolute top-[24%] -left-[3rem]"
                     icon={<RiBriefcase4Fill />} 
                     endCountNum={3} 
                     badgeText="Years Of Experience"
@@ -69,13 +68,14 @@ const Hero = () => {
                     endCountNum={2} 
                     endCountText="M"
                     badgeText="Lines of Clean Code"
-                    />
-                    <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] 
+                    /> */}
+                    
+                    <div className=" w-[500px] h-[500px] 
                     -top-1 -right-2 bg-no-repeat absolute"></div>
-                    <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                    <DevImg containerStyles=" w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
                     imgSrc="/assets/hero/developer.svg"
                     />
-                </div> */}
+                </div> 
             </div>
             {/* icon */}
             <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
