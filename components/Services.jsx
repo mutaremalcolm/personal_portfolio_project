@@ -11,17 +11,20 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
         title: 'Web Design',
-        description: 'Lorem Ipsum dolor sit amet consectetur adisiping elit. Doloremque, repellat?'
+        description: `I specialize in crafting visually stunning & user-friendly websites that drive results. 
+        I work closely with you to bring your vision to life.`
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
         title: 'Web Development',
-        description: 'Lorem Ipsum dolor sit amet consectetur adisiping elit. Doloremque, repellat?'
+        description: `I excel in building powerful and scalable web applications tailored to your needs.
+         I transform your ideas into fully functional digital solutions.`
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
         title: 'App Development',
-        description: 'Lorem Ipsum dolor sit amet consectetur adisiping elit. Doloremque, repellat?'
+        description: `I leverage the latest technologies to create intuitive and
+         high-performance apps that deliver exceptional user experiences.`
     }
 ]
 
