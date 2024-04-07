@@ -27,7 +27,9 @@ const Hero = () => {
                      </div>
                     <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    The Developer you need, Let me code your solution
+                    I am Full-Stack Developer based in Pretoria, South Africa.
+                    I work with Typescript, React, NextJS, Jest for TDD. I also work with NodeJS,
+                    Express & SQL.
                     </p>
                     {/*buttons*/}
                     <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">   
@@ -46,29 +48,29 @@ const Hero = () => {
                 </div>
                 {/* image */}
                  <div className="hidden xl:flex relative">
-                    {/* badge */}
-                    {/* <Badge 
+                    {/*badge */}
+                     <Badge 
                     containerStyles="absolute top-[24%] -left-[3rem]"
                     icon={<RiBriefcase4Fill />} 
                     endCountNum={3} 
                     badgeText="Years Of Experience"
                     />
-                    badge 2
+                    {/* badge 2 */}
                     <Badge 
-                    containerStyles="absolute top-[80%] -left-[1rem]"
+                    containerStyles="absolute top-[60%] -left-[1rem]"
                     icon={<RiTodoFill />} 
                     endCountNum={10} 
                     endCountText="k"
                     badgeText="Quality Hours"
                     />
-                    badge 3
+                    {/* badge 3 */}
                     <Badge 
                     containerStyles="absolute top-[55%] -right-8"
                     icon={<RiTeamFill />} 
                     endCountNum={2} 
                     endCountText="M"
                     badgeText="Lines of Clean Code"
-                    /> */}
+                    />
                     
                     <div className=" w-[500px] h-[500px] 
                     -top-1 -right-2 bg-no-repeat absolute"></div>
