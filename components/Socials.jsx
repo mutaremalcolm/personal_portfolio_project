@@ -1,10 +1,10 @@
 'use client'
 
 import { 
-  RiYoutubeFill, 
+  // RiYoutubeFill, 
   RiLinkedinFill, 
   RiGithubFill, 
-  RiFacebookFill, 
+  RiTwitterFill, 
   RiInstagramFill 
 } from "react-icons/ri";
 
@@ -12,26 +12,26 @@ import {
 import Link from "next/link";
 
 const icons = [
+  // {
+  //   path: "/",
+  //   name: <RiYoutubeFill />
+  // },
   {
-    path: "/",
-    name: <RiYoutubeFill />
-  },
-  {
-    path: "/",
+    path: "https://www.linkedin.com/in/malcolm-mutare-a234a61aa/",
     name: <RiLinkedinFill />
   },
   {
-    path: "/",
+    path: "https://github.com/mutaremalcolm",
     name: <RiGithubFill />
   },
   {
-    path: "/",
-    name: <RiFacebookFill />
+    path: "https://twitter.com/MalcolmTech",
+    name: <RiTwitterFill />
   },
-  {
-    path: "/",
-    name: <RiInstagramFill />
-  }
+  // {
+  //   path: "/",
+  //   name: <RiInstagramFill />
+  // }
 ]
 
   
