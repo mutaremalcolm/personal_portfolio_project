@@ -19,20 +19,20 @@ const projectData = [
     {
         image: "/assets/work/4.png",
         category: "react js",
-        name: "Nexa Website",
+        name: "MangoStore E-Commerce",
         description:
             "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
-        link: "/",
-        gitbranch: "/"
+        link: "https://incomparable-dieffenbachia-18c4c9.netlify.app/",
+        gitbranch: "https://github.com/mutaremalcolm/e-commerce-project?tab=readme-ov-file"
     },
     {
         image: "/assets/work/3.png",
         category: "react js",
-        name: "Solstice Website",
+        name: "Car Showcase Project",
         description:
             "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
-        link: "/",
-        gitbranch: "/"
+        link: "https://car-showcase-project-nine.vercel.app/",
+        gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
     },
     {
         image: "/assets/work/2.png",
@@ -93,17 +93,18 @@ const projectData = [
 
 const Work = () => {
     return (
-        <section className="relative mb-12 xl:mb-48">
+        <section className="relative mb-12 xl:mb-48 mt-14">
             <div className="container mx-auto">
                 {/* {text} */}
                 <div className="max-w-[400px] mx-auto xl:mx-0 text-center 
                 xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center 
                 xl:items-start">
                     <h2 className="section-title mb-4">Latest Projects</h2>
-                    <p className="subtitle mb-8">Lorem, Ipsum dolor sit amet consectetur
-                        adispicing elit.</p>
+                    <p className="subtitle mb-8">
+                        Here are some projects that i have recently worked on:
+                    </p>
                     <Link href="/projects">
-                        <Button>All Projects</Button>  
+                        <Button>All Projects</Button>
                     </Link>
                 </div>
                 {/* slide */}
@@ -122,7 +123,7 @@ const Work = () => {
                         {projectData.slice(0, 4).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
-                                    <ProjectCard project={project} />  
+                                    <ProjectCard project={project} />
                                 </SwiperSlide>)
                         })}
                     </Swiper>

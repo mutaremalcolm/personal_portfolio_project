@@ -16,7 +16,7 @@ import Socials from "./Socials";
 const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat
-      bg-bottom bg-cover dark:bg-none">
+      bg-bottom bg-cover dark:bg-none mb-20">
         <div className="container mx-auto">
             <div className="flex justify-between gap-x-8">
                 {/*text*/}
@@ -24,15 +24,14 @@ const Hero = () => {
                  text-center xl:text-left">
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
                      tracking-[4px]">Full Stack Developer {`</>`}
-                     </div>
+                     </div> 
                     <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    I am Full-Stack Developer based in Pretoria, South Africa.
-                    I work with Typescript, React, NextJS, Jest for TDD. I also work with NodeJS,
-                    Express & SQL.
+                    I am a Full-Stack Developer based in Pretoria, South Africa.
+                    I work with Typescript, React, NextJS, Jest for TDD, NodeJS, Express & SQL.
                     </p>
                     {/*buttons*/}
-                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">   
+                    <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">   
                         <Link href="/contact">
                             <Button className="gap-x-2">
                              Contact me <Send size={18} />
@@ -43,14 +42,14 @@ const Hero = () => {
                              <Download size={18} />
                             </Button>
                     </div>
-                    <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0" 
+                    <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-10" 
                     iconStyles="text-foreground text-[22] hover:text-primary transition-all" />
                 </div>
                 {/* image */}
                  <div className="hidden xl:flex relative">
                     {/*badge */}
                      <Badge 
-                    containerStyles="absolute top-[24%] -left-[3rem]"
+                    containerStyles="absolute top-[24%] -left-[2rem]"
                     icon={<RiBriefcase4Fill />} 
                     endCountNum={3} 
                     badgeText="Years Of Experience"
