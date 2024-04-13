@@ -21,7 +21,8 @@ const projectData = [
         category: "react js",
         name: "MangoStore E-Commerce",
         description:
-            "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
+            `The project is built using React for the front-end, Styled Components for styling, Redux for state 
+             management, Firebase for backend services and hosting, and Stripe for payment processing.`,
         link: "https://incomparable-dieffenbachia-18c4c9.netlify.app/",
         gitbranch: "https://github.com/mutaremalcolm/e-commerce-project?tab=readme-ov-file"
     },
@@ -30,7 +31,8 @@ const projectData = [
         category: "react js",
         name: "Car Showcase Project",
         description:
-            "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
+            `I built this app using Next.js 13, for the car models dynamic content fetched from a reliable API source. 
+            the website showcases responsive design, and a sleek interface`,
         link: "https://car-showcase-project-nine.vercel.app/",
         gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
     },
