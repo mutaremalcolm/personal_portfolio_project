@@ -1,36 +1,43 @@
-import Link from "next/link";
-
-
-import { usePathname } from 'next/navigation';
+import { useRef } from 'react';
 import { motion } from 'framer-motion';
 
-usePathname
-
 const links = [
-    {path: '/', name: 'home'},
-    {path: '/projects', name: 'my projects'},
-    {path: '/contact', name: 'contact'}
-]
+    { id: 'home', name: 'Home' },
+    { id: 'projects', name: 'My Projects' },
+    { id: 'contact', name: 'Contact' }
+];
 
-const Nav = ({containerStyles, linkStyles, underlineStyles}) => {
-    const path = usePathname();
+const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+    const navRef = useRef(null);
 
-  return (
-    <nav className={`${containerStyles}`}>
-        {links.map((link, index)=> {
-            return <Link href={link.path} key={index} className={`capitalize ${linkStyles}`}>
-            {link.path === path && (
-                <motion.span 
-                initial={{y: '-100%'}} 
-                animate={{y: 0}} 
-                transition={{type: 'tween'}} 
-                layoutId='underline' 
-                className={`${underlineStyles}`}/>
-            )}
-            {link.name}</Link>;
-        })}
-    </nav>
-  )
-}
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
-export default Nav
+    return (
+        <nav className={`${containerStyles}`} ref={navRef}>
+            {links.map((link, index) => (
+                <a
+                    key={index}
+                    href={`#${link.id}`}
+                    className={`capitalize ${linkStyles}`}
+                    onClick={() => scrollToSection(link.id)}
+                >
+                    {link.name}
+                    <motion.span
+                        initial={{ y: '-100%' }}
+                        animate={{ y: 0 }}
+                        transition={{ type: 'tween' }}
+                        layoutId='underline'
+                        className={`${underlineStyles}`}
+                    />
+                </a>
+            ))}
+        </nav>
+    );
+};
+
+export default Nav;
