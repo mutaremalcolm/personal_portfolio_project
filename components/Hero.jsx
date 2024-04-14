@@ -15,7 +15,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat
+    <section id="home" className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat
       bg-bottom bg-cover dark:bg-none mb-20">
         <div className="container mx-auto">
             <div className="flex justify-between gap-x-8">
@@ -37,10 +37,12 @@ const Hero = () => {
                              Contact me <Send size={18} />
                             </Button>
                         </Link>
+                        <Link href="/assets/hero/_Resume_Malcolm_Mutare.pdf">
                             <Button variant="secondary" className="gap-x-2">
                              Download CV 
                              <Download size={18} />
                             </Button>
+                        </Link>
                     </div>
                     <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-10" 
                     iconStyles="text-foreground text-[22] hover:text-primary transition-all" />
