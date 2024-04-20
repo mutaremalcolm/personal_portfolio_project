@@ -14,8 +14,8 @@ const projectData = [
         Next.js 13's App Router and Server Side Rendering, it optimizes metadata 
         for SEO and maintains clean code principles with a well-organized file 
         structure`,
-    link: "/https://car-showcase-project-nine.vercel.app/",
-    gitbranch: "/https://github.com/mutaremalcolm/car_showcase_project/"
+    link: "https://car-showcase-project-nine.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
   },
   {
     image: "/assets/work/3.png",
@@ -27,8 +27,8 @@ const projectData = [
        sorted by type, size, and color. Benefit from secure authentication, 
        hassle-free transactions, and Firebase-backed backend for smooth operations. 
        Netlify ensures seamless deployment.`,
-    link: "/https://incomparable-dieffenbachia-18c4c9.netlify.app/",
-    gitbranch: "/https://github.com/mutaremalcolm/e-commerce-project/"
+    link: "https://incomparable-dieffenbachia-18c4c9.netlify.app",
+    gitbranch: "https://github.com/mutaremalcolm/e-commerce-project"
   },
   {
     image: "/assets/work/2.png",
@@ -40,8 +40,8 @@ const projectData = [
        destinations, accommodations, and activities with ease.From intuitive user 
        interfaces to responsive layouts, TravelApp redefines travel planning with 
        elegance and functionality`,
-    link: "/https://vercel.com/mutaremalcolms-projects/travel-app/",
-    gitbranch: "/https://github.com/mutaremalcolm/travel_app/"
+    link: "https://vercel.com/mutaremalcolms-projects/travel-app",
+    gitbranch: "https://github.com/mutaremalcolm/travel_app"
   },
   {
     image: "/assets/work/1.png",
@@ -53,8 +53,8 @@ const projectData = [
          the power of Vite, Tailwind CSS, React. Key requirements include 
          rendering the restaurant menu, selecting an appropriate layout 
          & displaying item names & images.`,
-    link: "/https://flipdish-assesment.vercel.app/",
-    gitbranch: "/https://github.com/mutaremalcolm/deliveroo_take_home_assesment/"
+    link: "https://flipdish-assesment.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/deliveroo_take_home_assesment"
   },
   {
     image: "/assets/work/3.png",
@@ -67,8 +67,8 @@ const projectData = [
        akin to the authentic Spotify experience. Dive into a familiar interface, 
        navigate playlists, and immerse yourself in music, all within this meticulously 
        crafted replica.`,
-    link: "/https://spotify-clone-showcase.vercel.app/",
-    gitbranch: "/https://github.com/mutaremalcolm/spotify_clone_showcase/"
+    link: "https://spotify-clone-showcase.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/spotify_clone_showcase"
   },
   {
     image: "/assets/work/4.png",
@@ -80,8 +80,8 @@ const projectData = [
        Editable idea tiles with sorting options and localStorage persistence, 
        organization and continuity are ensured. Real-time character countdown and toast 
        notifications enhance clarity and usability.`,
-    link: "/https://technical-take-home-assesment.vercel.app/",
-    gitbranch: "/https://github.com/mutaremalcolm/technical-take-home_assesment"
+    link: "https://technical-take-home-assesment.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/technical-take-home_assesment"
   },
   // {
   //   image: "/assets/work/3.png",
