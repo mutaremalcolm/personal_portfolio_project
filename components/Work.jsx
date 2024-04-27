@@ -17,7 +17,7 @@ import ProjectCard from "./ProjectCard"
 
 const projectData = [
     {
-        image: "/assets/work/4.png",
+        image: "/assets/work/2.png",
         category: "react js",
         name: "MangoStore E-Commerce",
         description:
@@ -27,7 +27,7 @@ const projectData = [
         gitbranch: "https://github.com/mutaremalcolm/e-commerce-project?tab=readme-ov-file"
     },
     {
-        image: "/assets/work/3.png",
+        image: "/assets/work/1.png",
         category: "react js",
         name: "Car Showcase Project",
         description:
@@ -37,7 +37,7 @@ const projectData = [
         gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
     },
     {
-        image: "/assets/work/2.png",
+        image: "/assets/work/3.png",
         category: "next js",
         name: "Lumina Website",
         description:
@@ -46,7 +46,7 @@ const projectData = [
         gitbranch: "/"
     },
     {
-        image: "/assets/work/1.png",
+        image: "/assets/work/4.png",
         category: "next js",
         name: "Evolve Website",
         description:

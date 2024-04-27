@@ -5,7 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/assets/work/4.png",
+    image: "/assets/work/1.png",
     category: "next js",
     name: "Car Showcase Project",
     description:
@@ -18,7 +18,7 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
   },
   {
-    image: "/assets/work/3.png",
+    image: "/assets/work/2.png",
     category: "fullstack",
     name: "MangoStore",
     description:
