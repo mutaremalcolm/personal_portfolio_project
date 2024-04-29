@@ -1,6 +1,8 @@
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
+
 
 import {
     RiBriefcase4Fill,
@@ -13,7 +15,7 @@ import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
 
-const Hero = () => {
+const Hero = ({theme}) => {
   return (
     <section id="home" className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat
       bg-bottom bg-cover dark:bg-none mb-20">
@@ -90,3 +92,4 @@ const Hero = () => {
 }
 
 export default Hero
+
