@@ -38,7 +38,7 @@ const Contact = () => {
             {/* address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>844 Old Farm Road Faerie <br />Glen Pretoria South Africa</div>
+              <div>Elardus Park <br />Pretoria South Africa</div>
             </div>
             {/* phone */}
             <div className="flex items-center gap-x-8">
