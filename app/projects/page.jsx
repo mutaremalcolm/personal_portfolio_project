@@ -31,7 +31,7 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/e-commerce-project"
   },
   {
-    image: "/assets/work/2.png",
+    image: "/assets/work/3.png",
     category: "next js",
     name: "Travel App",
     description:
@@ -44,7 +44,7 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/travel_app"
   },
   {
-    image: "/assets/work/1.png",
+    image: "/assets/work/4.png",
     category: "react js",
     name: "FlipDish Technical Take Home Assesment",
     description:
@@ -57,7 +57,7 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/deliveroo_take_home_assesment"
   },
   {
-    image: "/assets/work/3.png",
+    image: "/assets/work/5.png",
     category: "next js",
     name: "Spotify Clone",
     description:
@@ -71,7 +71,7 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/spotify_clone_showcase"
   },
   {
-    image: "/assets/work/4.png",
+    image: "/assets/work/6.png",
     category: "next js",
     name: "ClearScore Technical Take Home Assesment",
     description:
