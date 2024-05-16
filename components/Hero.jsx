@@ -40,11 +40,11 @@ const Hero = ({theme}) => {
                             </Button>
                         </Link>
                         <Link href="/assets/hero/_Resume_Malcolm_Mutare.pdf">
-                            <Button variant="secondary" className="gap-x-2">
+                            <Button variant="secondary" className="gap-x-2" download>
                              Download CV 
                              <Download size={18} />
                             </Button>
-                        </Link>
+                        </Link> 
                     </div>
                     <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-10" 
                     iconStyles="text-foreground text-[22] hover:text-primary transition-all" />
