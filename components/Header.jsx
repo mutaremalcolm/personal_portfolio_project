@@ -19,8 +19,7 @@ const Header = () => {
         });
 
         return ()=> window.removeEventListener('scroll', scrollYPos);
-    })
-    
+    })  
   return (
     <header className={`${
         header ? 

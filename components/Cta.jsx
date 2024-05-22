@@ -7,7 +7,6 @@ const Cta = () => {
             <div>
                 <div className="flex flex-col items-center">
                     <h4 className="h4 max-w-xl text-center mb-8">
-
                         For any projects or opportunities  – reach out to me at any time.
                          I am always ready and eager for any new challenges that match my skillset, 
                          I'll make sure to respond as promptly as possible!

@@ -1,21 +1,15 @@
 'use client'
 
-import { 
-  // RiYoutubeFill, 
+import {  
   RiLinkedinFill, 
   RiGithubFill, 
-  RiTwitterFill, 
-  RiInstagramFill 
+  RiTwitterFill,  
 } from "react-icons/ri";
 
 
 import Link from "next/link";
 
 const icons = [
-  // {
-  //   path: "/",
-  //   name: <RiYoutubeFill />
-  // },
   {
     path: "https://www.linkedin.com/in/malcolm-mutare-a234a61aa/",
     name: <RiLinkedinFill />
@@ -28,10 +22,6 @@ const icons = [
     path: "https://twitter.com/MalcolmTech",
     name: <RiTwitterFill />
   },
-  // {
-  //   path: "/",
-  //   name: <RiInstagramFill />
-  // }
 ]
 
   
