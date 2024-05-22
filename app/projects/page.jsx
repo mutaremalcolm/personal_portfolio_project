@@ -83,25 +83,7 @@ const projectData = [
     link: "https://technical-take-home-assesment.vercel.app",
     gitbranch: "https://github.com/mutaremalcolm/technical-take-home_assesment"
   },
-  // {
-  //   image: "/assets/work/3.png",
-  //   category: "fullstack",
-  //   name: "Serenity Website",
-  //   description:
-  //     "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
-  //   link: "/",
-  //   gitbranch: "/"
-  // },
-  // {
-  //   image: "/assets/work/2.png",
-  //   category: "fullstack",
-  //   name: "Nova Website",
-  //   description:
-  //     "Lorem Ipsum dolor sit amet consectetur adispicing elit. Cumque, quis?",
-  //   link: "/",
-  //   gitbranch: "/"
-  // },
-
+  
 ]
 
 // remove category duplicates
@@ -122,8 +104,6 @@ const Projects = () => {
     ? project 
     : project.category === category; 
   });
-
-  
   
   return (
     <section id="projects" className="min-h-screen pt-12">
