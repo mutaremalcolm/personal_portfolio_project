@@ -25,11 +25,11 @@ const Hero = ({theme}) => {
                 <div className="flex max-w[600px] flex-col justify-center mx-auto xl:mx-8
                  text-center xl:text-left">
                     <div className="text-sm uppercase font-semibold mb-4 text-primary
-                     tracking-[4px]">Full Stack Developer {`</>`}
+                     tracking-[4px]">Front End Developer {`</>`}
                      </div> 
                     <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    I am a Full-Stack Developer based in Pretoria, South Africa.
+                    I am a Front-End Developer based in Pretoria, South Africa.
                     I work with Typescript, React, NextJS, Jest for TDD, NodeJS, Express & SQL.
                     </p>
                     {/*buttons*/}
