@@ -5,6 +5,32 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/assets/work/4.png",
+    category: "react js",
+    name: "FlipDish Technical Take Home Assesment",
+    description:
+        `Developed as part of a technical take-home assessment, 
+         this project serves as a menu renderer for Flipdish restaurant menus. Harnessing 
+         the power of Vite, Tailwind CSS, React. Key requirements include 
+         rendering the restaurant menu, selecting an appropriate layout 
+         & displaying item names & images.`,
+    link: "https://flipdish-assesment.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/deliveroo_take_home_assesment"
+  },
+  {
+    image: "/assets/work/6.png",
+    category: "next js",
+    name: "ClearScore Technical Take Home Assesment",
+    description:
+      `Introducing ThinkPad, my solution for organizing brilliant ideas. Built with React, 
+       Next.js 14, and Tailwind CSS, offers a seamless experience across devices. 
+       Editable idea tiles with sorting options and localStorage persistence, 
+       organization and continuity are ensured. Real-time character countdown and toast 
+       notifications enhance clarity and usability.`,
+    link: "https://technical-take-home-assesment.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/technical-take-home_assesment"
+  },
+  {
     image: "/assets/work/1.png",
     category: "next js",
     name: "Car Showcase Project",
@@ -13,7 +39,7 @@ const projectData = [
         and custom elements such as filters, combo boxes, and modals. Utilizing 
         Next.js 13's App Router and Server Side Rendering, it optimizes metadata 
         for SEO and maintains clean code principles with a well-organized file 
-        structure`,
+        structure. The app makes an API call to fetch data and render it inn the app`,
     link: "https://car-showcase-project-nine.vercel.app",
     gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
   },
@@ -43,21 +69,9 @@ const projectData = [
     link: "https://vercel.com/mutaremalcolms-projects/travel-app",
     gitbranch: "https://github.com/mutaremalcolm/travel_app"
   },
+  
   {
-    image: "/assets/work/4.png",
-    category: "react js",
-    name: "FlipDish Technical Take Home Assesment",
-    description:
-        `Developed as part of a technical take-home assessment, 
-         this project serves as a menu renderer for Flipdish restaurant menus. Harnessing 
-         the power of Vite, Tailwind CSS, React. Key requirements include 
-         rendering the restaurant menu, selecting an appropriate layout 
-         & displaying item names & images.`,
-    link: "https://flipdish-assesment.vercel.app",
-    gitbranch: "https://github.com/mutaremalcolm/deliveroo_take_home_assesment"
-  },
-  {
-    image: "/assets/work/5.png",
+    image: "/assets/work/6.png",
     category: "next js",
     name: "Spotify Clone",
     description:
@@ -65,25 +79,10 @@ const projectData = [
        core functionalities of the official app. Leveraging React, Next.js 14, and 
        Tailwind CSS, users can seamlessly explore and enjoy their favorite tunes, 
        akin to the authentic Spotify experience. Dive into a familiar interface, 
-       navigate playlists, and immerse yourself in music, all within this meticulously 
-       crafted replica.`,
+       within this meticulously crafted replica.`,
     link: "https://spotify-clone-showcase.vercel.app",
     gitbranch: "https://github.com/mutaremalcolm/spotify_clone_showcase"
   },
-  {
-    image: "/assets/work/6.png",
-    category: "next js",
-    name: "ClearScore Technical Take Home Assesment",
-    description:
-      `Introducing ThinkPad, my solution for organizing brilliant ideas. Built with React, 
-       Next.js 14, and Tailwind CSS, offers a seamless experience across devices. 
-       Editable idea tiles with sorting options and localStorage persistence, 
-       organization and continuity are ensured. Real-time character countdown and toast 
-       notifications enhance clarity and usability.`,
-    link: "https://technical-take-home-assesment.vercel.app",
-    gitbranch: "https://github.com/mutaremalcolm/technical-take-home_assesment"
-  },
-  
 ]
 
 // remove category duplicates
