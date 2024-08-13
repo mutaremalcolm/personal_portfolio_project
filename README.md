@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<!-- -------------------------------------------------------------------------- -->
+<!-- HEADING STUFF  -->
+<div align="center">
+  <h2>Personal Portfolio Project</h2>
+  <h4>Personal Portfolio Website<h4>
+  <h3> 
+    <a href='https://vite-typescript-portfolio.vercel.app/' target='_blank'>
+      <h5>live demo ↗</h5>
+    </a>
+  </h3>
+  <p align="center">
+    <a href="https://github.com/mutaremalcolm/Vite-Typescript-Portfolio">Report Bug</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/mutaremalcolm/Vite-Typescript-Portfolio">Request Feature</a>
+  </p>
+</div>
 
-First, run the development server:
+<!-- -------------------------------------------------------------------------- -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 👋 Introduction:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Welcome to my personal portfolio project, showcasing my skills in building interactive and responsive web applications. This project is a comprehensive demonstration of my expertise in frontend development using modern web technologies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project serves as a testament to my proficiency in developing dynamic, state-driven web applications. It reflects my ability to integrate various technologies to create a cohesive and engaging user experience.
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+--------------------------------------------------------------------------
+DEMO IMAGES 
+<!-- <!-- <div align=center> -->
+<a href='https://thymia-mutaremalcolms-projects.vercel.app/' align=center>
+    <img src="/assets/desktop1.png" alt="Demo-Mobile-View" title="Demo-Image-Mobile" width="170" height="255">    
+    <img src="/assets/desktop2.png" alt="Demo-Desktop-View" title="Demo-Image-Desktop" width="400" height="250"> 
+</a>
+</div>
+<br> -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- -------------------------------------------------------------------------- -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔ **Fully Responsive & Mobile Compatibility**: Ensure UI is responsive and mobile-friendly.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br/>
+
+<!-- -------------------------------------------------------------------------- -->
+
+<!-- -------------------------------------------------------------------------- -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br/> <br/>
