@@ -6,7 +6,7 @@ import ProjectCard from "@/components/ProjectCard";
 const projectData = [
   {
     image: "/assets/work/4.png",
-    category: "react js",
+    category: "NextJS",
     name: "FlipDish Technical Take Home Assesment",
     description:
         `Developed as part of a technical take-home assessment, 
@@ -31,17 +31,18 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/technical-take-home_assesment"
   },
   {
-    image: "/assets/work/1.png",
+    image: "/assets/work/5.png",
     category: "next js",
-    name: "Car Showcase Project",
+    name: "Thymia Gamified App",
     description:
-      `CarShowcase is a Next.js 14 project featuring advanced search, filtering, 
-        and custom elements such as filters, combo boxes, and modals. Utilizing 
-        Next.js 13's App Router and Server Side Rendering, it optimizes metadata 
-        for SEO and maintains clean code principles with a well-organized file 
-        structure. The app makes an API call to fetch data and render it inn the app`,
-    link: "https://car-showcase-project-nine.vercel.app",
-    gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
+      `The project focuses on developing a gamified version of the 2-back task, a 
+      cognitive assessment used to measure working memory. 
+      I selected Next.js for its built-in routing capabilities and utilized a global
+      React context to manage state across components. Additionally, I 
+      implemented error logging, simulated post requests, and a toggle function 
+      to show event logs as toast notifications.`,
+    link: "https://thymia-mutaremalcolms-projects.vercel.app/",
+    gitbranch: "https://github.com/mutaremalcolm/Thymia"
   },
   {
     image: "/assets/work/2.png",
@@ -57,6 +58,19 @@ const projectData = [
     gitbranch: "https://github.com/mutaremalcolm/e-commerce-project"
   },
   {
+    image: "/assets/work/1.png",
+    category: "next js",
+    name: "Car Showcase Project",
+    description:
+      `CarShowcase is a Next.js 14 project featuring advanced search, filtering, 
+        and custom elements such as filters, combo boxes, and modals. Utilizing 
+        Next.js 13's App Router and Server Side Rendering, it optimizes metadata 
+        for SEO and maintains clean code principles with a well-organized file 
+        structure. The app makes an API call to fetch data and render it inn the app`,
+    link: "https://car-showcase-project-nine.vercel.app",
+    gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
+  },
+  {
     image: "/assets/work/3.png",
     category: "next js",
     name: "Travel App",
@@ -68,20 +82,6 @@ const projectData = [
        elegance and functionality`,
     link: "https://vercel.com/mutaremalcolms-projects/travel-app",
     gitbranch: "https://github.com/mutaremalcolm/travel_app"
-  },
-  
-  {
-    image: "/assets/work/6.png",
-    category: "next js",
-    name: "Spotify Clone",
-    description:
-      `Spotify Clone: Crafted as a showcase project, this Spotify clone mirrors the 
-       core functionalities of the official app. Leveraging React, Next.js 14, and 
-       Tailwind CSS, users can seamlessly explore and enjoy their favorite tunes, 
-       akin to the authentic Spotify experience. Dive into a familiar interface, 
-       within this meticulously crafted replica.`,
-    link: "https://spotify-clone-showcase.vercel.app",
-    gitbranch: "https://github.com/mutaremalcolm/spotify_clone_showcase"
   },
 ]
 

@@ -33,8 +33,8 @@ This project serves as a testament to my proficiency in developing dynamic, stat
 DEMO IMAGES 
 <!-- <!-- <div align=center> -->
 <a href='https://thymia-mutaremalcolms-projects.vercel.app/' align=center>
-    <img src="/assets/readme/desktop1.png" alt="Demo-Mobile-View" title="Demo-Image-Mobile" width="170" height="255">    
-    <img src="/assets/readme/desktop2.png" alt="Demo-Desktop-View" title="Demo-Image-Desktop" width="400" height="250"> 
+    <img src="/public/assets/readme/desktop1.png" alt="Demo-Mobile-View" title="Demo-Image-Mobile" width="170" height="255">    
+    <img src="/public/assets/readme/desktop2.png" alt="Demo-Desktop-View" title="Demo-Image-Desktop" width="400" height="300"> 
 </a>
 </div>
 <br> -->
