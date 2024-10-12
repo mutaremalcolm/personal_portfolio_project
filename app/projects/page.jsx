@@ -47,15 +47,15 @@ const projectData = [
   {
     image: "/assets/work/2.png",
     category: "fullstack",
-    name: "MangoStore",
+    name: "Movieland",
     description:
-      `MangoStore:E-Commerce platform for clothing sales. Built with React, Styled 
-       Components, Redux, Firebase, and Stripe. Explore diverse clothing items, easily
-       sorted by type, size, and color. Benefit from secure authentication, 
-       hassle-free transactions, and Firebase-backed backend for smooth operations. 
-       Netlify ensures seamless deployment.`,
-    link: "https://incomparable-dieffenbachia-18c4c9.netlify.app",
-    gitbranch: "https://github.com/mutaremalcolm/e-commerce-project"
+      `The project makes an API call to fetch movies from a database. It then
+       renders them and allows a search functionality. It also features a pop-up modal.
+       It was completed for a time constrainted technical assessment for Leo Vegas, 
+       the technical assesment demanded a code review prior to any re-factoring being done,
+       in addition to a few other technical constraints`,
+    link: "https://calorie-counter-app-eight.vercel.app/",
+    gitbranch: "https://github.com/mutaremalcolm/movie_land_v2"
   },
   {
     image: "/assets/work/1.png",
@@ -63,10 +63,10 @@ const projectData = [
     name: "Car Showcase Project",
     description:
       `CarShowcase is a Next.js 14 project featuring advanced search, filtering, 
-        and custom elements such as filters, combo boxes, and modals. Utilizing 
+        and custom elements such as custom images, combo boxes, and modals. Utilizing 
         Next.js 13's App Router and Server Side Rendering, it optimizes metadata 
         for SEO and maintains clean code principles with a well-organized file 
-        structure. The app makes an API call to fetch data and render it inn the app`,
+        structure. The app makes an API call to fetch data and render it in the app`,
     link: "https://car-showcase-project-nine.vercel.app",
     gitbranch: "https://github.com/mutaremalcolm/car_showcase_project"
   },
@@ -75,8 +75,8 @@ const projectData = [
     category: "next js",
     name: "Travel App",
     description:
-      `Utilizing Next.js 14 and Tailwind CSS, this feature-rich travel app
-       embodies sleek UI design and mobile-first best practices. Seamlessly navigate 
+      `Utilizing Next.js 14 and Tailwind CSS, this feature-rich travel app single-page-application
+       embodies a sleek UI design incorporating mobile-first best practices. Seamlessly navigate 
        destinations, accommodations, and activities with ease.From intuitive user 
        interfaces to responsive layouts, TravelApp redefines travel planning with 
        elegance and functionality`,

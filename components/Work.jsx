@@ -19,12 +19,12 @@ const projectData = [
     {
         image: "/assets/work/2.png",
         category: "react js",
-        name: "MangoStore E-Commerce",
+        name: "Movieland",
         description:
-            `The project is built using React for the front-end, Styled Components for styling, Redux for state 
-             management, Firebase for backend services and hosting, and Stripe for payment processing.`,
-        link: "https://incomparable-dieffenbachia-18c4c9.netlify.app",
-        gitbranch: "https://github.com/mutaremalcolm/e-commerce-project?tab=readme-ov-file"
+            `The project makes an API call to fetch movies from a database. It then renders them and allows a search 
+             functionality. It was completed for a time constrainted technical assessment.`,
+        link: "https://calorie-counter-app-eight.vercel.app/",
+        gitbranch: "https://github.com/mutaremalcolm/movie_land_v2"
     },
     {
         image: "/assets/work/1.png",

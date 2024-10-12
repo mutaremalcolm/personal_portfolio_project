@@ -32,10 +32,12 @@ This project serves as a testament to my proficiency in developing dynamic, stat
 --------------------------------------------------------------------------
 DEMO IMAGES 
 <!-- <!-- <div align=center> -->
-<a href='https://thymia-mutaremalcolms-projects.vercel.app/' align=center>
+<div align=center>
+<a href='https://thymia-mutaremalcolms-projects.vercel.app/'>
     <img src="/public/assets/readme/mobile1.png" alt="Demo-Mobile-View" title="Demo-Image-Mobile" width="170" height="255">    
-    <img src="/public/assets/readme/desktop1.png" alt="Demo-Desktop-View" title="Demo-Image-Desktop" width="400" height="300"> 
+    <img src="/public/assets/readme/desktop1.png" alt="Demo-Desktop-View" title="Demo-Image-Desktop" width="400" height="250"> 
 </a>
+</div>
 </div>
 <br> -->
 
