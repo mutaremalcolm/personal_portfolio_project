@@ -30,7 +30,7 @@ const Hero = ({theme}) => {
                     <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
                     I am a Front-End Developer based in Pretoria, South Africa.
-                    I work with Typescript, React, NextJS, Jest for TDD, NodeJS, Express & SQL.
+                    I work with Typescript, React, Vite, NextJS, Jest for TDD, Tanstack/React Query, Storybook & Tailwind. I love Linux and also enjoy working with Redux & Zustand.
                     </p>
                     {/*buttons*/}
                     <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-6">   
@@ -55,7 +55,7 @@ const Hero = ({theme}) => {
                      <Badge 
                     containerStyles="absolute top-[24%] -left-[2rem]"
                     icon={<RiBriefcase4Fill />} 
-                    endCountNum={3} 
+                    endCountNum={5} 
                     badgeText="Years Of Experience"
                     />
                     {/* badge 2 */}
