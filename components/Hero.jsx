@@ -29,7 +29,7 @@ const Hero = ({theme}) => {
                      </div> 
                     <h1 className="h1 mb-4">Hi my name is Malcolm Mutare</h1>
                     <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> 
-                    I am a Front-End Developer based in Pretoria, South Africa.
+                    I am a Software Engineer (Front End) based in Pretoria, South Africa.
                     I work with Typescript, React, Vite, NextJS, Jest for TDD, Tanstack/React Query, Storybook & Tailwind. I love Linux and also enjoy working with Redux & Zustand.
                     </p>
                     {/*buttons*/}
