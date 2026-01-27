@@ -6,7 +6,7 @@
   <h2>Personal Portfolio Project</h2>
   <h4>Personal Portfolio Website<h4>
   <h3> 
-    <a href='https://vite-typescript-portfolio.vercel.app/' target='_blank'>
+    <a href='https://malcolmmutare.space/' target='_blank'>
       <h5>live demo ↗</h5>
     </a>
   </h3>
