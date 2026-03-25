@@ -41,10 +41,6 @@ const Contact = () => {
               <div>Waterkloof Glen<br />Pretoria South Africa</div>
             </div>
             {/* phone */}
-            <div className="flex items-center gap-x-8">
-              <PhoneCall size={18} className="text-primary" />
-              <div>+2778 681 21 64</div>
-            </div>
           </div>
           <Form />
         </div>

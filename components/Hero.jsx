@@ -55,7 +55,7 @@ const Hero = ({theme}) => {
                      <Badge 
                     containerStyles="absolute top-[24%] -left-[2rem]"
                     icon={<RiBriefcase4Fill />} 
-                    endCountNum={5} 
+                    endCountNum={6} 
                     badgeText="Years Of Experience"
                     />
                     {/* badge 2 */}
