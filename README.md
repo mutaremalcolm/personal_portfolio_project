@@ -23,9 +23,9 @@
 
 ---
 
-Welcome to my personal portfolio project, showcasing my skills in building interactive and responsive web applications. This project is a comprehensive demonstration of my expertise in frontend development using modern web technologies.
+Welcome to my personal portfolio — a curated collection of projects that reflect my passion for building high-quality web applications.
 
-This project serves as a testament to my proficiency in developing dynamic, state-driven web applications. It reflects my ability to integrate various technologies to create a cohesive and engaging user experience.
+Focused on modern frontend development, this project demonstrates my ability to craft responsive interfaces, manage complex state, and integrate scalable technologies to create seamless and engaging user experiences.
 
 <br/>
 
